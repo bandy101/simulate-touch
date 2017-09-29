@@ -4,7 +4,7 @@
 
 基于iOS越狱系统已实现
 
-1.按键精灵框架
+1.按键精灵框架（TTouch）
 
 2.手机控制控制手机
 
@@ -18,7 +18,9 @@ http://www.cnblogs.com/bandy/
 
 
 
-TTouch API 文档
+
+
+#TTouch API 文档
 
 
 ###  1. 系统模块（sys）
