@@ -129,3 +129,43 @@ http://www.cnblogs.com/bandy/
           touch.up(8,148,1007)
 
 ###  3. 按键模块（key）
+3.1 按键按下
+* 函数
+
+      key.down(string keystr)
+* 入参
+
+      按键类型
+      home：菜单键
+      lock:锁屏键
+      volup:音量+键
+      voldown:音量-键
+* 示例
+3.2 按键抬起
+* 函数
+
+      key.up(string keystr)
+* 入参
+
+      按键类型
+      home：菜单键
+      lock:锁屏键
+      volup:音量+键
+      voldown:音量-键
+* 示例
+
+3.2 综合示例
+* 按下菜单键
+
+        key.down("home")
+        sys.msleep(130.91)
+        key.up("home")
+* 截图
+
+        key.down("home")
+        sys.msleep(158.70)
+        key.down("lock")
+        sys.msleep(77.66)
+        key.up("home")
+        sys.msleep(124.04)
+        key.up("lock")
