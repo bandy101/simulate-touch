@@ -169,3 +169,29 @@ http://www.cnblogs.com/bandy/
         key.up("home")
         sys.msleep(124.04)
         key.up("lock")
+
+###  4. 屏幕模块（screen）
+
+4.1 屏幕找图(screen.find_image)
+* 函数
+
+      screen.find_image(string imagepath,int s,int x,int y,int w,int h)
+
+      screen.find_image(string imagepath,int s)
+
+      screen.find_image(string imagepath)
+* 入参
+
+      imagepath:需要查找的图片路径
+      s:匹配相似度0-100，100为100%匹配，默认80
+      x:查找屏幕范围x坐标
+      y:查找屏幕范围y坐标
+      w:查找范围宽
+      h:查找范围高
+* 返回
+  （x,y）查找到的中心点坐标
+
+* 示例
+
+      x,y=screen.find_image("/usr/1.png")  --查找图片
+      touch.down(1,x,y）-- 在屏幕(x,y)的位置按下手指
