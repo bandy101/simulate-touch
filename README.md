@@ -1,4 +1,11 @@
-# simulate-touch
+# 飞鸟群控
+PC电脑控制手机，请查看https://github.com/bandy101/flybirdremotecontroller
+
+
+
+
+
+# simulate-touch（iOS按键精灵）
 
 <img src="https://github.com/bandy101/simulate-touch/blob/master/IMG_0109.PNG" width="200px" /><img src="https://github.com/bandy101/simulate-touch/blob/master/IMG_0111.PNG" width="200px" /><img src="https://github.com/bandy101/simulate-touch/blob/master/IMG_0112.PNG" width="200px" />
 
